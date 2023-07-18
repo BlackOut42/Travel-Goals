@@ -44,3 +44,20 @@ header li {
     color: rgb(77, 77, 77);
     
 }
+footer{
+    background:linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
+    padding: 10px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    height: 80px;
+    width: 80px; 
+    margin: 0 50px;
+}
+footer img{
+    height: 100%;
+    width: 100%;
+}
