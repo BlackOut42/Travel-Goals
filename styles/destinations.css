@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(45deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(77, 77, 77);
+}
+#page-logo a{
+    color: rgb(183, 230, 235)
+}
+header {
+  position: static;
+}
+.nav-link{
+    color: rgb(183, 230, 235)
+}
+.nav-link:hover{
+    background-color: rgb(183, 230, 235);
+    color:rgb(59, 59, 59);
+}
+main ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 25px;
+  width: 75rem;
+  margin: 0 auto 48px auto;
+}
+li:nth-of-type(3) {
+  grid-column: 1 / span 2;
+}
+main li {
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  height: 20rem;
+}
+main li img {
+  width: 50%;
+  object-fit: cover;
+}
+.card-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+.card-content h2{
+    margin:0;
+}
+.card-actions {
+  text-align: right;
+}
+.card-actions a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 6px;
+  border-radius: 5px;
+  color: rgb(22, 211, 228);
+}
+.card-actions a:hover {
+  text-decoration: none;
+  background-color: rgb(235, 253, 255);
+}
